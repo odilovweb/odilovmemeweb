@@ -83,17 +83,17 @@ function Hero() {
           </div>
         </div>
       )}
-      <div className="hero bg-base-200 pt-3 min-h-screen max-w-5xl ">
+      <div className="hero bg-base-200 py-3 min-h-screen max-w-5xl ">
         <div className="max-w-full flex flex-col  ">
           <img
             src={Banner}
             className=" rounded-xl shadow-2xl max-w-full mb-9"
           />
           <div
-            className="bg-green-800 py-3 rounded-lg px-3 mx-auto text-gray-200 max-w- text-sm
+            className="bg-green-800  py-6 rounded-lg px-3 mx-auto text-gray-200 max-w- text-sm
           "
           >
-            <h1 className="text-5xl font-bold">Welcome new ERA!</h1>
+            <h1 className="text-5xl font-bold">Welcome $BFROG !</h1>
             <p className="py-6 max-w-5xl">
               PBatFrog (BFROG) is a playful memecoin on the TON blockchain,
               launched via the Blum Memepad. As a character-inspired token,
@@ -121,62 +121,86 @@ function Hero() {
               </button>
             </div>
 
-            <h3 className="mb-3 text-lg flex flex-col align-middle gap-2 justify-center items-center">
+            <h3 className="mb-3 text-lg flex flex-col align-middle gap-2 justify-center items-center bg-yellow-700 py-3">
               <div>
-                <button
-                  onClick={() => {
-                    navigator.clipboard
-                      .writeText(`0x0000000000000000000000000000000000000000`)
-                      .then(() => {
-                        setIsActive(true);
-                        setTimeout(() => {
-                          setIsActive(false);
-                        }, 2000);
-                      })
-                      .catch((err) => {
-                        console.error("Failed to copy text");
-                      });
-                  }}
-                  className="btn btn-xs"
-                >
-                  <span>
-                    <FaCopy />
-                  </span>
-                </button>
                 <span>Ca: </span>
               </div>
-              <span>0x000000000000000000000000000000</span>
+              <button
+                className="flex items-center justify-center hover:text-green-800"
+                onClick={() => {
+                  navigator.clipboard
+                    .writeText(`0x0000000000000000000000000000000000000000`)
+                    .then(() => {
+                      setIsActive(true);
+                      setTimeout(() => {
+                        setIsActive(false);
+                      }, 2000);
+                    })
+                    .catch((err) => {
+                      console.error("Failed to copy text");
+                    });
+                }}
+              >
+                <FaCopy /> 0x000000000000000000000000000000
+              </button>
             </h3>
 
-            <div className="flex  justify-center gap-6 bg-zinc-700 py-5 rounded-xl">
-              <a href="https://x.com/BatFrog_Ton">
-                <img
-                  src={Twitter}
-                  alt=""
-                  className="max-w-10 hover:max-w-16 transition-all hover:transition-all"
-                />
-              </a>
-              <a href="https://t.me/Batfrog_onTon">
-                <img
-                  src={Telegram}
-                  alt=""
-                  className="max-w-10 hover:max-w-16 transition-all hover:transition-all"
-                />
-              </a>
-              <a href="https://t.me/Batfrog_onTon">
-                <img
-                  src={Blum}
-                  alt="blum"
-                  className="max-w-10 rounded-lg hover:max-w-16 transition-all hover:transition-all"
-                />
-              </a>
-              <a href="https://dexscreener.com">
-                <img
-                  src={Dexscreener}
-                  alt=""
-                  className="max-w-10   hover:max-w-16 transition-all hover:transition-all  rounded-lg"
-                />
-              </a>
+            <div className="flex flex-col justify-center items-center gap-3 bg-zinc-700 py-5 rounded-xl">
+              <h3 className="text-xl">COMMUNITY !</h3>
+              <div className="flex  justify-center gap-6">
+                <a href="https://x.com/BatFrog_Ton">
+                  <img
+                    src={Twitter}
+                    alt=""
+                    className="max-w-10 hover:max-w-8 transition-all hover:transition-all"
+                  />
+                </a>
+                <a href="https://t.me/Batfrog_onTon">
+                  <img
+                    src={Telegram}
+                    alt=""
+                    className="max-w-10 hover:max-w-8 transition-all hover:transition-all"
+                  />
+                </a>
+                <a href="https://t.me/Batfrog_onTon">
+                  <img
+                    src={Blum}
+                    alt="blum"
+                    className="max-w-10 rounded-lg hover:max-w-8 transition-all hover:transition-all"
+                  />
+                </a>
+                <a href="https://dexscreener.com">
+                  <img
+                    src={Dexscreener}
+                    alt=""
+                    className="max-w-10   hover:max-w-8 transition-all hover:transition-all  rounded-lg"
+                  />
+                </a>
+              </div>
+
+              <div className="carousel carousel-start rounded-box h-96">
+                <div className="carousel-item h-full">
+                  <img src={Blum} />
+                </div>
+                <div className="carousel-item h-full">
+                  <img src={Twitter} />
+                </div>
+                <div className="carousel-item h-full">
+                  <img src={Telegram} />
+                </div>
+                <div className="carousel-item h-full">
+                  <img src={Blum} />
+                </div>
+                <div className="carousel-item h-full">
+                  <img src={Logo} />
+                </div>
+                <div className="carousel-item h-full">
+                  <img src={Telegram} />
+                </div>
+                <div className="carousel-item h-full">
+                  <img src={Dexscreener} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
