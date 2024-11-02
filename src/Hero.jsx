@@ -114,14 +114,14 @@ function Hero() {
                     setIsShow(false);
                   }, 1000);
                 }}
-                className="btn btn-primary bg-green-600 border-gray-100 mb-3 "
+                className="btn btn-primary bg-blue-800 border-gray-100 mb-3 "
               >
                 Pump $BFROG
                 <img src={Rocket} alt="" className="max-w-5" />
               </button>
             </div>
 
-            <h3 className="mb-3 text-lg flex rounded-md flex-col align-middle gap-2 justify-center items-center bg-yellow-700 py-3">
+            <h3 className="mb-3 text-lg flex rounded-md flex-col align-middle gap-2 justify-center items-center bg-yellow-400 py-3">
               <div>
                 <span>Ca: </span>
               </div>
@@ -145,7 +145,7 @@ function Hero() {
               </button>
             </h3>
 
-            <div className="flex flex-col justify-center items-center gap-3 bg-zinc-700 py-5 rounded-xl">
+            <div className="flex flex-col justify-center items-center gap-3 bg-blue-800 py-5 rounded-xl">
               <h3 className="text-xl">COMMUNITY !</h3>
               <div className="flex  justify-center gap-6">
                 <a href="https://x.com/BatFrog_Ton">
@@ -180,7 +180,7 @@ function Hero() {
             </div>
           </div>{" "}
           <div className="flex gap-3 rounded-lg flex-col items-center justify-center py-8 bg-red-700 mt-3">
-            <h4 className="text-3xl bg-yellow-800 text-white p-3 rounded-lg">
+            <h4 className="text-3xl bg-yellow-400 text-white p-3 rounded-lg">
               How To Buy ?
             </h4>
             <h5>Coming soon ...</h5>
