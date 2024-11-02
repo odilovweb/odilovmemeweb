@@ -12,7 +12,7 @@ function Hero() {
   const [isShow, setIsShow] = useState(false);
   const [isActive, setIsActive] = useState(false);
   return (
-    <div className="px-4">
+    <div className="">
       {isActive && (
         <div className="toast toast-center toast-top">
           <div className="btn btn-success">
