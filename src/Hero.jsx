@@ -12,7 +12,7 @@ function Hero() {
   const [isShow, setIsShow] = useState(false);
   const [isActive, setIsActive] = useState(false);
   return (
-    <div>
+    <div className="ml-7 ">
       {isActive && (
         <div className="toast toast-center toast-top">
           <div className="btn btn-success">
@@ -83,14 +83,14 @@ function Hero() {
           </div>
         </div>
       )}
-      <div className="hero bg-base-200 min-h-screen px-5">
+      <div className="hero bg-base-200 pt-3 min-h-screen px-5 max-w-6xl">
         <div className="max-w-full flex flex-col  ">
           <img
             src={Banner}
-            className="max-w-sm rounded-xl shadow-2xl max-w-full mb-9"
+            className=" rounded-xl shadow-2xl max-w-full mb-9"
           />
           <div
-            className="bg-green-800 py-3 rounded-lg px-3 text-gray-200
+            className="bg-green-800 py-3 rounded-lg px-3 mx-auto text-gray-200 max-w-sm text-sm
           "
           >
             <h1 className="text-5xl font-bold">Welcome new ERA!</h1>
@@ -119,28 +119,30 @@ function Hero() {
               <img src={Rocket} alt="" className="max-w-5" />
             </button>
 
-            <h3 className="mb-3 text-3xl flex align-middle gap-2 justify-center items-center">
-              <button
-                onClick={() => {
-                  navigator.clipboard
-                    .writeText(`0x0000000000000000000000000000000000000000`)
-                    .then(() => {
-                      setIsActive(true);
-                      setTimeout(() => {
-                        setIsActive(false);
-                      }, 2000);
-                    })
-                    .catch((err) => {
-                      console.error("Failed to copy text");
-                    });
-                }}
-                className="btn"
-              >
-                <span>
-                  <FaCopy />
-                </span>
-              </button>
-              <span>Ca: </span>
+            <h3 className="mb-3 text-lg flex flex-col align-middle gap-2 justify-center items-center">
+              <div>
+                <button
+                  onClick={() => {
+                    navigator.clipboard
+                      .writeText(`0x0000000000000000000000000000000000000000`)
+                      .then(() => {
+                        setIsActive(true);
+                        setTimeout(() => {
+                          setIsActive(false);
+                        }, 2000);
+                      })
+                      .catch((err) => {
+                        console.error("Failed to copy text");
+                      });
+                  }}
+                  className="btn btn-xs"
+                >
+                  <span>
+                    <FaCopy />
+                  </span>
+                </button>
+                <span>Ca: </span>
+              </div>
               <span>0x000000000000000000000000000000</span>
             </h3>
 
@@ -149,28 +151,28 @@ function Hero() {
                 <img
                   src={Twitter}
                   alt=""
-                  className="max-w-14 hover:max-w-16 transition-all hover:transition-all"
+                  className="max-w-10 hover:max-w-16 transition-all hover:transition-all"
                 />
               </a>
               <a href="https://t.me/Batfrog_onTon">
                 <img
                   src={Telegram}
                   alt=""
-                  className="max-w-14 hover:max-w-16 transition-all hover:transition-all"
+                  className="max-w-10 hover:max-w-16 transition-all hover:transition-all"
                 />
               </a>
               <a href="https://t.me/Batfrog_onTon">
                 <img
                   src={Blum}
                   alt="blum"
-                  className="max-w-14 rounded-lg hover:max-w-16 transition-all hover:transition-all"
+                  className="max-w-10 rounded-lg hover:max-w-16 transition-all hover:transition-all"
                 />
               </a>
               <a href="https://dexscreener.com">
                 <img
                   src={Dexscreener}
                   alt=""
-                  className="max-w-14   hover:max-w-16 transition-all hover:transition-all  rounded-lg"
+                  className="max-w-10   hover:max-w-16 transition-all hover:transition-all  rounded-lg"
                 />
               </a>
             </div>
