@@ -179,7 +179,7 @@ function Hero() {
               </div>
             </div>
           </div>{" "}
-          <div className="flex gap-3 rounded-lg flex-col items-center justify-center py-8 bg-red-700 mt-3">
+          <div className="flex gap-3 rounded-lg flex-col items-center justify-center py-8 bg-green-800 mt-3">
             <h4 className="text-3xl bg-yellow-400 text-white p-3 rounded-lg">
               How To Buy ?
             </h4>
