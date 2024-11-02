@@ -121,7 +121,7 @@ function Hero() {
               </button>
             </div>
 
-            <h3 className="mb-3 text-lg flex flex-col align-middle gap-2 justify-center items-center bg-yellow-700 py-3">
+            <h3 className="mb-3 text-lg flex rounded-md flex-col align-middle gap-2 justify-center items-center bg-yellow-700 py-3">
               <div>
                 <span>Ca: </span>
               </div>
@@ -177,34 +177,16 @@ function Hero() {
                   />
                 </a>
               </div>
-
-              <div className="carousel carousel-start rounded-box h-96">
-                <div className="carousel-item h-full">
-                  <img src={Blum} />
-                </div>
-                <div className="carousel-item h-full">
-                  <img src={Twitter} />
-                </div>
-                <div className="carousel-item h-full">
-                  <img src={Telegram} />
-                </div>
-                <div className="carousel-item h-full">
-                  <img src={Blum} />
-                </div>
-                <div className="carousel-item h-full">
-                  <img src={Rocket} />
-                </div>
-                <div className="carousel-item h-full">
-                  <img src={Telegram} />
-                </div>
-                <div className="carousel-item h-full">
-                  <img src={Dexscreener} />
-                </div>
-              </div>
             </div>
+          </div>{" "}
+          <div className="flex gap-3 rounded-lg flex-col items-center justify-center py-8 bg-red-700 mt-3">
+            <h4 className="text-3xl bg-yellow-800 text-white p-3 rounded-lg">
+              How To Buy ?
+            </h4>
+            <h5>Coming soon ...</h5>
           </div>
-        </div>
-      </div>
+        </div>{" "}
+      </div>{" "}
     </div>
   );
 }
