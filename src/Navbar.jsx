@@ -25,12 +25,18 @@ function Navbar() {
                 </summary>
                 <ul className=" rounded-t-none p-2 bg-green-800">
                   <li className="mb-3">
-                    <a className="bg-white text-green-800 hover:text-white">
+                    <a
+                      href="https://t.me/Batfrog_onTon"
+                      className="bg-white text-green-800 hover:text-white"
+                    >
                       Telegram
                     </a>
                   </li>
                   <li>
-                    <a className="bg-white text-green-800 hover:text-white">
+                    <a
+                      href="https://x.com/BatFrog_Ton"
+                      className="bg-white text-green-800 hover:text-white"
+                    >
                       Twitter
                     </a>
                   </li>

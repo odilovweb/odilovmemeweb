@@ -106,18 +106,20 @@ function Hero() {
               and accessible entry point for users exploring the world of
               memecoins and the TON ecosystem.
             </p>
-            <button
-              onClick={() => {
-                setIsShow(true);
-                setTimeout(() => {
-                  setIsShow(false);
-                }, 1000);
-              }}
-              className="btn btn-primary bg-green-600 border-gray-100 mb-3"
-            >
-              Pump $BFROG
-              <img src={Rocket} alt="" className="max-w-5" />
-            </button>
+            <div className="max-w-full flex justify-center">
+              <button
+                onClick={() => {
+                  setIsShow(true);
+                  setTimeout(() => {
+                    setIsShow(false);
+                  }, 1000);
+                }}
+                className="btn btn-primary bg-green-600 border-gray-100 mb-3 "
+              >
+                Pump $BFROG
+                <img src={Rocket} alt="" className="max-w-5" />
+              </button>
+            </div>
 
             <h3 className="mb-3 text-lg flex flex-col align-middle gap-2 justify-center items-center">
               <div>
