@@ -7,10 +7,10 @@ import Hero from "./Hero";
 
 function App() {
   return (
-    <>
+    <div className="">
       <Navbar />
       <Hero />
-    </>
+    </div>
   );
 }
 

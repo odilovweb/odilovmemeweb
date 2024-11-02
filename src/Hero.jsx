@@ -12,7 +12,7 @@ function Hero() {
   const [isShow, setIsShow] = useState(false);
   const [isActive, setIsActive] = useState(false);
   return (
-    <div className="">
+    <div className="px-4">
       {isActive && (
         <div className="toast toast-center toast-top">
           <div className="btn btn-success">
@@ -83,7 +83,7 @@ function Hero() {
           </div>
         </div>
       )}
-      <div className="hero bg-base-200 pt-3 min-h-screen px-5 max-w-5xl">
+      <div className="hero bg-base-200 pt-3 min-h-screen  max-w-5xl">
         <div className="max-w-full flex flex-col  ">
           <img
             src={Banner}
