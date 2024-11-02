@@ -12,7 +12,7 @@ function Hero() {
   const [isShow, setIsShow] = useState(false);
   const [isActive, setIsActive] = useState(false);
   return (
-    <div className="ml-7 ">
+    <div className="">
       {isActive && (
         <div className="toast toast-center toast-top">
           <div className="btn btn-success">
@@ -83,18 +83,18 @@ function Hero() {
           </div>
         </div>
       )}
-      <div className="hero bg-base-200 pt-3 min-h-screen px-5 max-w-6xl">
+      <div className="hero bg-base-200 pt-3 min-h-screen px-5 max-w-5xl">
         <div className="max-w-full flex flex-col  ">
           <img
             src={Banner}
             className=" rounded-xl shadow-2xl max-w-full mb-9"
           />
           <div
-            className="bg-green-800 py-3 rounded-lg px-3 mx-auto text-gray-200 max-w-sm text-sm
+            className="bg-green-800 py-3 rounded-lg px-3 mx-auto text-gray-200 max-w- text-sm
           "
           >
             <h1 className="text-5xl font-bold">Welcome new ERA!</h1>
-            <p className="py-6 max-w-full">
+            <p className="py-6 max-w-5xl">
               PBatFrog (BFROG) is a playful memecoin on the TON blockchain,
               launched via the Blum Memepad. As a character-inspired token,
               BatFrog combines humor and the spirit of the crypto community,
@@ -146,7 +146,7 @@ function Hero() {
               <span>0x000000000000000000000000000000</span>
             </h3>
 
-            <div className="flex max-w-full justify-center gap-6 bg-zinc-700 py-5 rounded-xl">
+            <div className="flex  justify-center gap-6 bg-zinc-700 py-5 rounded-xl">
               <a href="https://x.com/BatFrog_Ton">
                 <img
                   src={Twitter}

@@ -4,7 +4,7 @@ import Logo from "./assets/logo.jpg";
 function Navbar() {
   return (
     <div>
-      <div className="navbar bg-base-100 bg-green-800 rounded-lg text-white">
+      <div className="navbar  flex-col text-sm bg-green-800 rounded-lg text-white">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl ">
             <img src={Logo} alt="" className="max-w-12 rounded-full " />
@@ -14,14 +14,16 @@ function Navbar() {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="btn btn-success bg-white mr-3">Buy On Blum</a>
+              <a className="btn btn-success text-green-800 btn-sm bg-white mr-3">
+                Buy On Blum
+              </a>
             </li>
             <li>
               <details>
-                <summary className="bg-white text-green-800 hover:text-white">
+                <summary className="text-green-800 bg-white text-sm hover:text-white p-1.5">
                   Socials
                 </summary>
-                <ul className="bg-base-100 rounded-t-none p-2 bg-green-800">
+                <ul className=" rounded-t-none p-2 bg-green-800">
                   <li className="mb-3">
                     <a className="bg-white text-green-800 hover:text-white">
                       Telegram
