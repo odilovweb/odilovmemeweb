@@ -162,7 +162,7 @@ function Hero() {
               <a href="https://t.me/Batfrog_onTon">
                 <img
                   src={Blum}
-                  alt=""
+                  alt="blum"
                   className="max-w-14 rounded-lg hover:max-w-16 transition-all hover:transition-all"
                 />
               </a>
