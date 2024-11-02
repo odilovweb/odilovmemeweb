@@ -192,7 +192,7 @@ function Hero() {
                   <img src={Blum} />
                 </div>
                 <div className="carousel-item h-full">
-                  <img src={Rocketwfe} />
+                  <img src={Rocket} />
                 </div>
                 <div className="carousel-item h-full">
                   <img src={Telegram} />
