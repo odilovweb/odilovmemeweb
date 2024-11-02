@@ -83,7 +83,7 @@ function Hero() {
           </div>
         </div>
       )}
-      <div className="hero bg-base-200 py-3 min-h-screen max-w-5xl ">
+      <div className="hero bg-base-200 py-3 min-h-screen max-w-full ">
         <div className="max-w-full flex flex-col  ">
           <img
             src={Banner}

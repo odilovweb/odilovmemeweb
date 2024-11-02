@@ -4,7 +4,7 @@ import Logo from "./assets/logo.jpg";
 function Navbar() {
   return (
     <div>
-      <div className="navbar  flex-col text-sm bg-green-800 rounded-lg text-white">
+      <div className="navbar max-w-full  flex-col text-sm bg-green-800 rounded-lg text-white">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl ">
             <img src={Logo} alt="" className="max-w-12 rounded-full " />
