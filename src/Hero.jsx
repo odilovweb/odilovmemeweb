@@ -90,7 +90,7 @@ function Hero() {
             className=" rounded-xl shadow-2xl max-w-full mb-9"
           />
           <div
-            className="bg-green-800  py-6 rounded-lg px-3 mx-auto text-gray-200 max-w- text-sm
+            className="bg-green-800  py-6 rounded-lg px-1 mx-auto text-gray-200 max-w- text-sm
           "
           >
             <h1 className="text-5xl font-bold">Welcome $BFROG !</h1>
