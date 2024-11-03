@@ -3,7 +3,7 @@ import Banner from "./assets/banner.jpg";
 import Rocket from "./assets/rock.png";
 import Twitter from "./assets/twitter.png";
 import Telegram from "./assets/telegram.png";
-import Blum from "./assets/blum.png";
+import Blum from "./assets/gas-pump.png";
 import Dexscreener from "./assets/dexsceener.png";
 
 import { FaCopy } from "react-icons/fa";
@@ -129,7 +129,9 @@ function Hero() {
                 className="flex items-center justify-center hover:text-green-800"
                 onClick={() => {
                   navigator.clipboard
-                    .writeText(`0x0000000000000000000000000000000000000000`)
+                    .writeText(
+                      `EQBf3JJwJUg_rC8o8G5Ofex2Kht4FYW-RaD_xE8UhfWjL-NP`
+                    )
                     .then(() => {
                       setIsActive(true);
                       setTimeout(() => {
@@ -141,7 +143,7 @@ function Hero() {
                     });
                 }}
               >
-                <FaCopy /> 0x000000000000000000000000000000
+                <FaCopy /> EQBf3JJwJUg_rC8o8G5Ofex2Kht4FYW-RaD_xE8UhfWjL-NP
               </button>
             </h3>
 

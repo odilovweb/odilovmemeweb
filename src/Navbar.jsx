@@ -14,8 +14,11 @@ function Navbar() {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="btn btn-success text-green-800 btn-sm bg-white mr-3">
-                Buy On Blum
+              <a
+                href="https://t.me/gasPump_bot/app?startapp=eyJyZWZfdXNlcl9pZCI6ODQxODg2OTY2LCJ0b2tlbl9hZGRyZXNzIjoiRVFCZjNKSndKVWdfckM4bzhHNU9mZXgyS2h0NEZZVy1SYURfeEU4VWhmV2pMLU5QIn0"
+                className="btn btn-success text-green-800 btn-sm bg-white mr-3"
+              >
+                Buy On GasPump
               </a>
             </li>
             <li>
