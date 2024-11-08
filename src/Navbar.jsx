@@ -15,7 +15,7 @@ function Navbar() {
           <ul className="menu menu-horizontal px-1">
             <li>
               <a
-                href=""
+                href="https://pump.fun/DaiCEJuX4msbv4f9fYz2JihcRzUbZpx5jhaeTkZXpump"
                 className="btn btn-success text-blue-700 btn-sm bg-white mr-3"
               >
                 Buy On PumpFun

@@ -176,7 +176,7 @@ function Hero() {
                 className="flex items-center justify-center hover:text-blue-700"
                 onClick={() => {
                   navigator.clipboard
-                    .writeText(`0X00000000000000000000`)
+                    .writeText(`DaiCEJuX4msbv4f9fYz2JihcRzUbZpx5jhaeTkZXpump`)
                     .then(() => {
                       setIsActive(true);
                       setTimeout(() => {
@@ -188,7 +188,7 @@ function Hero() {
                     });
                 }}
               >
-                <FaCopy /> 0X00000000000000000000
+                <FaCopy /> DaiCEJuX4msbv4f9fYz2JihcRzUbZpx5jhaeTkZXpump
               </button>
             </h3>
 
@@ -209,7 +209,7 @@ function Hero() {
                     className="max-w-10 hover:max-w-8 transition-all hover:transition-all"
                   />
                 </a>
-                <a href="">
+                <a href="https://pump.fun/DaiCEJuX4msbv4f9fYz2JihcRzUbZpx5jhaeTkZXpump">
                   <img
                     src={Blum}
                     alt="blum"
