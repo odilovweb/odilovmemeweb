@@ -18,7 +18,7 @@ function Navbar() {
                 href=""
                 className="btn btn-success text-blue-700 btn-sm bg-white mr-3"
               >
-                Buy On GasPump
+                Buy On PumpFun
               </a>
             </li>
             <li>
@@ -29,7 +29,7 @@ function Navbar() {
                 <ul className="flex rounded-t-none p-2 bg-blue-700">
                   <li className="mb-3">
                     <a
-                      href="https://t.me/Winnerton_community"
+                      href="https://t.me/WinnerTrump_Sol"
                       className="bg-white text-blue-700 hover:text-white"
                     >
                       Telegram
@@ -37,7 +37,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      href="https://x.com/winner_on_ton?s=21"
+                      href="https://x.com/PopBase/status/1854110241048449165?t=mB8pTpKrzDr6pDMdPqKS7w&s=19"
                       className="bg-white text-blue-700 hover:text-white"
                     >
                       Twitter

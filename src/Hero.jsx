@@ -3,7 +3,7 @@ import Banner from "./assets/trump.png";
 import Rocket from "./assets/rock.png";
 import Twitter from "./assets/twitter.png";
 import Telegram from "./assets/telegram.png";
-import Blum from "./assets/gas-pump.png";
+import Blum from "./assets/pumpfun.jpg";
 import Dexscreener from "./assets/dexsceener.png";
 
 import { FaCopy } from "react-icons/fa";
@@ -195,14 +195,14 @@ function Hero() {
             <div className="flex flex-col justify-center items-center gap-3 bg-blue-800 py-5 rounded-xl">
               <h3 className="text-xl">COMMUNITY !</h3>
               <div className="flex  justify-center gap-6">
-                <a href="https://x.com/winner_on_ton?s=21">
+                <a href="https://x.com/PopBase/status/1854110241048449165?t=mB8pTpKrzDr6pDMdPqKS7w&s=19">
                   <img
                     src={Twitter}
                     alt=""
                     className="max-w-10 hover:max-w-8 transition-all hover:transition-all"
                   />
                 </a>
-                <a href="https://t.me/Winnerton_community">
+                <a href="https://t.me/WinnerTrump_Sol">
                   <img
                     src={Telegram}
                     alt=""
@@ -269,11 +269,11 @@ function Hero() {
               How To Buy ?
             </h4>
             <h5 className="text-xl">
-              1) Download Tonkeeper from Appstore or Playmarket and open a
-              wallet <br /> 2) Buy TON via Binance, ByBit or Okx exchanges and
-              send to your Tonkeeper wallet. <br /> 3) Open GasPump telegram app
-              and connect your tonkeeper wallet <br /> 4) Go to memepad and
-              search our CA address and buy through TON
+              1) Download Phantom Wallet from Appstore or Playmarket and open a
+              wallet <br /> 2) Buy SOL via Binance, ByBit or Okx exchanges and
+              send to your Phantom wallet. <br /> 3) Open Pump.fun and connect
+              your phantom wallet <br /> 4) Go to pumpfun and search our CA
+              address and buy through SOL
             </h5>
           </div>
         </div>{" "}
